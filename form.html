@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir Calon Pegawai | AstraNova</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Pendaftaran Calon Pegawai AstraNova</h2>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="nama">Nama:</label></td>
+                    <td><input type="text" id="nama" name="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat:</label></td>
+                    <td><input type="text" id="alamat" name="alamat"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password:</label></td>
+                    <td><input type="password" id="pass" name="pass"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin:</td>
+                    <td>
+                        <label><input type="radio" name="jk" value="laki-laki" checked> Laki-laki</label>
+                        <label><input type="radio" name="jk" value="perempuan"> Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bahasa Pemrograman:</td>
+                    <td>
+                        <label><input type="checkbox" name="web"> Web</label>
+                        <label><input type="checkbox" name="mobile"> Mobile</label>
+                        <label><input type="checkbox" name="desk"> Desktop</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="kota">Kota Asal:</label></td>
+                    <td>
+                        <select id="kota" name="kota">
+                            <option>Semarang</option>
+                            <option>Bandung</option>
+                            <option>Jakarta</option>
+                            <option>Surabaya</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><label for="alasan">Kenapa kami harus memilih Anda?</label></td>
+                    <td>
+                        <textarea id="alasan" name="alasan" rows="6" placeholder="Tulis jawaban Anda di sini"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Kirim">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div class="nav-link">
+            <a href="index.html">Kembali ke Beranda</a>
+        </div>
+    </div>
+</body>
+</html>

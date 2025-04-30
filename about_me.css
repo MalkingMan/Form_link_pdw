@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.about-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    width: 750px;
+    line-height: 1.7;
+}
+
+h2, h3 {
+    color: #00d9ff;
+    text-align: center;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.company-img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.nav-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    background-color: #00bfff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link a:hover {
+    background-color: #0080c0;
+}
